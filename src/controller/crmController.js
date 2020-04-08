@@ -54,6 +54,9 @@ export const getContact = (req,res) => {
     })
 }
 
+export const editContactByID = (req,res) => {
+    res.send("Updated")
+}
 export const deleteContact = (req,res) => {
     console.log(req.body);
     var response = {
